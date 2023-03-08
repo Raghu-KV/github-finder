@@ -29,7 +29,7 @@ function UserSerch() {
           <div className="form-control relative">
             <input
               type="text"
-              placeholder="Serch user"
+              placeholder="search user"
               className="input input-bordered input-accent w-full"
               value={text}
               onChange={handleChange}
@@ -38,7 +38,7 @@ function UserSerch() {
               className="btn btn-accent absolute top-0 right-0"
               type="submit"
             >
-              Serch Users
+              Search Users
             </button>
           </div>
         </form>
